@@ -1,13 +1,13 @@
 plugin: aws_ec2
 
-#aws_access_key: 
-#aws_secret_key: 
+#aws_access_key: AKIAWBJI536EQ75BAO5F
+#aws_secret_key: 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
 
 regions:
   - ap-southeast-1
 
 filters:
-  instance-state-name : running
+  instance-group-name: host machines
  
 keyed_groups:
   - key: tags.Name
