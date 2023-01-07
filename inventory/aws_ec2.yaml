@@ -7,7 +7,7 @@ regions:
   - ap-southeast-1
 
 filters:
-  instance.group-id=i-0ee9e062ed9c57749
+  private-dns-name= ec2-43-205-206-120.ap-south-1.compute.amazonaws.com
  
 keyed_groups:
   - key: tags.Name
