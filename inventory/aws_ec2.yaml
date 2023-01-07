@@ -4,10 +4,10 @@ plugin: aws_ec2
 #aws_secret_key: YC/A6Za2+JuIq52uKRf6Ch+gG6l656g04dQ971/Q
 
 regions:
-  - ap-southeast-1
+  - ap-south-1
 
 filters:
-  private-dns-name= ec2-43-205-206-120.ap-south-1.compute.amazonaws.com
+  instance-state-name= stopped
  
 keyed_groups:
   - key: tags.Name
