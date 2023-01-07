@@ -7,7 +7,7 @@ regions:
   - ap-southeast-1
 
 filters:
-  "Name=tag-value,Values=host machines"
+  "Name=tag:Owner,Values=host machines"
  
 keyed_groups:
   - key: tags.Name
