@@ -7,7 +7,7 @@ regions:
   - ap-southeast-1
 
 filters:
-  ip-address=65.2.40.153
+  instance.group-id=i-0ee9e062ed9c57749
  
 keyed_groups:
   - key: tags.Name
