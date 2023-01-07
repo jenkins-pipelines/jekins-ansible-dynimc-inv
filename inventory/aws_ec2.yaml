@@ -7,7 +7,7 @@ regions:
   - ap-southeast-1
 
 filters:
-  "Name=tag:Owner,Values=host machines"
+  ip-address=65.2.40.153
  
 keyed_groups:
   - key: tags.Name
